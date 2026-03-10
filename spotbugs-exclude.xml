@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <!--
+        EI_EXPOSE_REP2: JsonPlaceholderClient stores injected HttpClient and Gson
+        references directly. This is intentional — the injection constructor exists
+        specifically for testing. Both HttpClient and Gson are effectively immutable
+        and thread-safe, so storing the reference is safe.
+    -->
+    <Match>
+        <Class name="com.demo.JsonPlaceholderClient"/>
+        <Bug pattern="EI_EXPOSE_REP2"/>
+    </Match>
+</FindBugsFilter>
