@@ -6,7 +6,7 @@ A demonstration of CI/CD practices for automated quality assurance, showcasing e
 
 ## Overview
 
-This project demonstrates a complete CI/CD pipeline implementation for a Java REST API client, featuring:
+This project demonstrates a complete CI/CD pipeline implementation for a Java REST API client (sample), featuring:
 
 - **Automated Linting**: Checkstyle for code style enforcement
 - **Static Analysis**: SpotBugs for bug pattern detection
@@ -33,7 +33,7 @@ This project demonstrates a complete CI/CD pipeline implementation for a Java RE
 ## Project Structure
 
 ```
-zip/
+Zip/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml                    # GitHub Actions CI pipeline
