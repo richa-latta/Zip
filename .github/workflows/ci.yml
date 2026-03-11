@@ -405,6 +405,7 @@ jobs:
           echo "- GitHub PR comments"
           echo "- JIRA ticket updates"
           echo ""
+          echo ""
           echo "In production, this would use:"
           echo "  - actions/slack-notify"
           echo "  - sendgrid/github-action"
