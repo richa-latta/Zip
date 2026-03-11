@@ -200,7 +200,6 @@ jobs:
           echo "| Branches | **${BRANCH}%** | —   |" >> $GITHUB_STEP_SUMMARY
           echo "| Methods  | **${METHOD}%** | —   |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Completed coverage checks"
           echo "_Download the \`jacoco-coverage-report\` artifact for the full HTML report._" >> $GITHUB_STEP_SUMMARY
       - name: Upload Coverage Report
         if: always()
