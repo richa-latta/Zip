@@ -402,7 +402,7 @@ jobs:
           echo "CI Pipeline failed! This would trigger notifications to:"
           echo "- Email to team members"
           echo "- Slack channel #qa-automation"
-          echo "- GitHub PR comments"
+          echo "- GitHub PR comment"
           echo "- JIRA ticket updates"
           echo ""
           echo "In production, this would use:"
